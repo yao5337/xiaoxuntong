@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bai"
+    android:orientation="vertical"
+    tools:context="com.example.yao.xiaoxuntong.tongzhi_add">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/hui"
+        android:hint="请输入标题"
+        android:textColorHint="#888888"
+        android:gravity="top"
+        android:padding="15dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/hui"
+        android:hint="请输入标题"
+        android:layout_marginTop="5dp"
+        android:textColorHint="#888888"
+        android:gravity="top"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:id="@+id/tongzhi_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发布"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="260dp"
+        android:textColor="@color/bai"
+        android:background="@drawable/button_login"/>
+
+</LinearLayout>

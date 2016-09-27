@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/hui"></solid>
+    <stroke android:width="1dp" android:color="@color/huang_main"></stroke>
+    <corners android:topLeftRadius="15dp" android:bottomLeftRadius="15dp"></corners>
+</shape>
